@@ -1,0 +1,207 @@
+body{
+  background-color: #f5f5f5;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+/* Side nav fixed and the rest of the code to be added */
+#sidenav{
+  width: 40px;
+  height: 100vh;
+  background-color: #D5EDFF;
+  top: 0px;
+  position: fixed;
+}
+/* the top navbar for logo and name etc. */
+#topnav{
+  background-color: #FFFFFF;
+  top: 0px;
+  padding-left: 45px;    /* FOr the navbar */
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  color: #707070;
+}
+
+#logo{
+  padding: 12px 0px;
+}
+/* Icons that are to be moved to the right */
+#name, #profile, #notifications, #search{
+  float: right;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 30px;
+}
+/* small profile image */
+#profile-image{
+  height: 30px;
+  border-radius: 50%;
+}
+/* id for the a tag of profile image */
+#profile{
+  padding: 5px 0px;
+  margin-left: 50px;
+}
+/* Name of the user  */
+#name{
+  padding: 5px 0px;
+  font-size: 20px;
+  padding-right: 40px;
+  margin-left: 15px;
+}
+/* The main content area */
+#main-body{
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+/* Main heading i.e your tasks for this page */
+.main-heading{
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  color: #060606;
+}
+/* the second nav for tasks */
+#task-nav{
+  border-bottom-style: solid;
+  border-bottom-color: #BDBDBD;
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  width: 72%;
+  margin-bottom: 10px;
+}
+/* a tags in the task navbar */
+#task-nav a{
+  text-decoration: None;
+  padding: 10px 20px 10.8px 10px;
+  color: #BDBDBD;
+}
+/* For the current a tag selected */
+.active{
+  color: #060606!important;
+  border-bottom-style: solid;
+  border-bottom-color: #004AC9;
+}
+/* the whole region containing all the articles */
+.articles{
+  display: inline-block;
+  width: 75%;   /* as it is 3/4th of the left view port */
+  box-sizing: border-box;
+}
+/* flex container containing all the articles */
+.flex-container{
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 25px;
+}
+/* Individual article boxes */
+.article{
+  background-color: #FFFFFF;
+  width: 31%;
+  margin-left: auto;
+  height: auto;
+  margin-top: 25px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 20px 10px 10px 10px;
+  text-align: center;
+}
+/* The heading/topic of each article */
+.article-topic{
+  margin: 0px 0px 10px 0px;
+  font-size: 25px;
+  width: 100%;
+}
+.article-topic h3{
+  font-weight: 500;
+}
+/* All the details of the article */
+.article-details{
+  font-size: 14px;
+  text-align: left;
+}
+.article-details p{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+/* the word progress written and the percentage mentioned */
+.progress{
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+/* A general class for float right */
+.fright{
+  float: right;
+}
+/* outer box of theprogress bar */
+.progressbar {
+  background-color: #BDBDBD;
+  border-radius: 4px;
+}
+/* the bar representing progress */
+.progressbar>div {
+  background-color: orange;
+  width: 40%;
+  height: 8px;
+  border-radius: 5px;
+}
+/* all the views comments and time taken */
+.engagement{
+  font-size: 10px;
+  margin-top: 10px;
+  color: #b5b5b5;
+}
+/* the rightmost box containing past transactions and donut chart */
+.quick-view{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 23%;
+  float:right;
+  background-color: #FFFFFF;
+  height: 500px;
+  margin-right: 25px;
+  margin-top: 25px;
+  border-radius: 15px;
+  padding: 15px 20px;
+}
+h3{
+  margin: 0px;
+}
+#donut-chart img{
+  width: 100%;
+}
+#donut-chart{
+  padding: 0px 60px 20px;
+}
+.rule{
+  align-self: center;
+  width: 95%;
+}
+#past-transactions{
+  padding-left: 5px;
+  padding-top: 20px;
+}
+#date{
+  font-size: 10px;
+  padding: 10px 0px;
+}
+.transaction{
+  padding-top: 10px;
+}
+.task-logo{
+  border-radius: 50%;
+  display: inline-block;
+}
+.type{
+  font-size: 10px;
+  opacity: 70%;
+  position:static;
+  top: 0;
+}
