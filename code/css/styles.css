@@ -224,17 +224,17 @@ h3{
 }
 .amount{
   position: relative;
-  left: 235px;
-  bottom: 74px;
+  left: 245px;
+  bottom: 65px;
 }
-.amount h1{
+.amount h2{
   font-weight: 400;
 }
 #transaction-2{
   position: relative;
-  bottom: 90px;
+  bottom: 80px;
 }
 #transaction-3{
   position: relative;
-  bottom: 180px;
+  bottom: 160px;
 }
