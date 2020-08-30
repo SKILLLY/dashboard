@@ -113,11 +113,19 @@ body{
   padding: 20px 10px 10px 10px;
   text-align: center;
 }
+.tasklogo{
+  float:left;
+  height: 40px;
+  width: 40px;
+}
+
 /* The heading/topic of each article */
 .article-topic{
-  margin: 0px 0px 10px 0px;
   font-size: 25px;
   width: 100%;
+  position: relative;
+  left: -20px;
+  bottom: 2px;
 }
 .article-topic h3{
   font-weight: 500;
@@ -202,6 +210,31 @@ h3{
 .type{
   font-size: 10px;
   opacity: 70%;
-  position:static;
-  top: 0;
+  position: relative;
+  left: 10px;
+  bottom: 5px;
+}
+.articletopic{
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+}
+.articletopic h3{
+  font-weight: 400;
+}
+.amount{
+  position: relative;
+  left: 235px;
+  bottom: 74px;
+}
+.amount h1{
+  font-weight: 400;
+}
+#transaction-2{
+  position: relative;
+  bottom: 90px;
+}
+#transaction-3{
+  position: relative;
+  bottom: 180px;
 }
